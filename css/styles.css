@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: peachpuff;
+}
+.nav{
+    margin:0px;
+    padding:0px;
+}
+.nav ul{
+    background-color: papayawhip;
+    padding:15px;
+}
+.nav li{
+    display: inline;
+    list-style-type: none;
+    padding:10px;
+}
+.nav a{
+    text-decoration: none;
+    color:coral;
+    font-size:1.3em;
+}
+.btn-output{
+    padding:7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:coral;
+    font-size:1.3em;
+    border-radius: 10px;
+    border:2px solid;
+    background-color: papayawhip;
+}
+.btn-output:hover{
+    cursor:pointer;
+    background-color: peachpuff;
+}
+.main{
+    height:auto;
+    padding:10px;
+    font-size:1.1em;
+}
+.text{
+    resize: none;
+    border:1px solid white;
+    margin-left: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-size:0.7em;
+    background-color: papayawhip;
+}
+.text:active{
+    border:1px solid white;
+}
+.code{
+    width:49.5%;
+    border:2px solid peachpuff;
+    float:left;
+     background-color: peachpuff;
+    background-size: cover;
+    height:80%;
+    color:palevioletred;
+    font-size: 1.9em; 
+}
+.output{
+    width:49.5%;
+    float:right;
+    background-color: white;
+    height:100%;
+}
+.pre{
+    margin-top:0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.sty-css{
+    border:1px solid white;
+    margin-left: 0px;
+    margin-top:0px;
+    background-color: papayawhip;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-size:0.7em;
+    resize: none;
+}
+textarea::placeholder {
+  font-size: 20px;
+    padding:10px;
+}
+.about{
+    font-size: 10em;
+}
+.about{
+    float:left;
+    font-size:2em;
+    text-align: center;
+    border-radius:5px;
+    background-color: papayawhip;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.about p{
+    font-size:1.1em;
+    color:coral;
+}
+.img{
+    width:200px;
+    height:200px;
+    border-radius:150px;
+}
+.footer{
+    background-color: #fff;
+    float:left;
+    width:100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding:20px;
+    background-color: papayawhip;
+    text-align: center;
+    color:coral;
+}

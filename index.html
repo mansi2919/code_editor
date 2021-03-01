@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   <nav class="nav">
+       <ul>
+           <li><a href="#editor">Editor</a></li>
+           <li><a href="#aboutus">Project</a></li>
+           <li><button onclick="showOutput()" class="btn-output">Run</button></li>
+       </ul>
+   </nav>
+    <div class="main" id="editor">
+        <div class="code"><pre class="pre">
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;
+&lt;/title&gt;
+&lt;style&gt;
+</pre>          
+<textarea name="text" id="" cols="30" rows="8" class="sty-css" placeholder="Write Your CSS Here"></textarea>
+<pre class="pre">
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+</pre>
+<textarea name="text" id="" cols="30" rows="8" class="text" placeholder="Write Your body Here"></textarea>
+<pre class="pre">&lt;/body&gt;
+&lt;/html&gt;</pre>
+        </div>
+        <div class="output">
+        </div>
+    </div>
+<!--About US-->
+<div class="about" id="aboutus">
+   <img src="images/image1.jpg" alt="THis is a image" class="img">
+    <p class="para">This is a simple code editor, where in you can test your HTML and CSS skills. Although this is an ongoing project, this is totally open source. You are free to use it, modify it. </p>
+    <p>Hope you all will like it. Feel free to give any suggestions or tips to improve it. I would love to make this project even more exciting.</p>
+</div>
+<footer class="footer">
+    Designed By Mansi Jain.
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
